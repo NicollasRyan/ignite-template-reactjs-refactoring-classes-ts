@@ -9,7 +9,6 @@ interface Headerprops {
 }
 
 export function Header({openModal}: Headerprops) {
-  const { openModal } =  ;
 
   return (
     <Container>
@@ -32,11 +31,3 @@ export function Header({openModal}: Headerprops) {
     </Container>
   )
 }
-class Header extends Component {
-  render() {
-
-    
-  }
-};
-
-export default Header;
